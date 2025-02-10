@@ -1,0 +1,114 @@
+.Mail-compose {
+    font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    font-size: .875rem;
+    align-items: center;
+    background-color: #c2e7ff;
+    background-image: none;
+    display: inline-flex;
+    font-weight: 500;
+    overflow: hidden;
+    border-radius: 16px;
+    color: #001d35;
+    height: 46px;
+    padding: 0px 19px;
+    gap: 20px;
+}
+
+.Mail-header {
+    background-color: #f6f8fc;
+}
+
+.Mail-sidebar {
+    background-color: #f6f8fc;
+}
+
+.Mail-body {
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 30px;
+}
+
+.Connect-gmail {
+    background-color: #1980e4;
+    color: white;
+}
+
+.Mail-time {
+    color: #000;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.zA {
+    cursor: pointer;
+}
+
+.zA:hover {
+    border-left: 10px solid #0265c5;
+    box-shadow: inset 1px 0 0 rgb(218, 220, 224), inset -1px 0 0 rgb(218, 220, 224), 0 1px 2px 0 rgba(60, 64, 67, .3), 0 1px 3px 1px rgba(60, 64, 67, .15);
+    z-index: 2;
+}
+
+
+/* display mail components */
+
+.MD-subject {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.MailStar {
+    color: #facc15;
+}
+
+.MailStar>svg {
+    fill: #facc15;
+}
+
+.Hd {
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .2);
+}
+
+.Compose-Editor.ql-snow .ql-editor {
+    max-height: 100% !important;
+    min-height: 100% !important;
+}
+
+.shadow-reply:hover {
+    box-shadow: rgb(102 97 97 / 25%) 0px 0px 5px 0px;
+}
+
+.shadow-reply {
+    border: 1px solid rgba(0, 0, 0, 0.13);
+}
+
+.Search-Student_bar {
+    position: absolute;
+    background: rgb(255, 255, 255);
+    top: 6%;
+    width: 100%;
+    box-shadow: 0 0 2px 1px #c1bfbfcc;
+    max-width: 36%;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+iframe>html>body {
+    font: small / 1.5 Arial, Helvetica, sans-serif;
+}
+
+.ApplictionButton {
+    height: 40px !important;
+    border: 1px solid #005082;
+    border-radius: 5px;
+    background: #F8FCFF;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+    color: #005082 !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+}

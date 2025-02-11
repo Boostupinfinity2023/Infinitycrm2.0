@@ -37,6 +37,9 @@ const ViewApplication = ({ isOpen, onClose, application, client_id, RESPONSIVE_P
                             <Tab key="Offer Letter" title="Offer Letter" >
                                 <Offerletter FileID={application} client_id={client_id} />
                             </Tab>
+                            <Tab key="Task" title="Application Task">
+                                <Applicationttask FileID={application} client_id={client_id} />
+                            </Tab>
                         </Tabs>
 
                     </div>

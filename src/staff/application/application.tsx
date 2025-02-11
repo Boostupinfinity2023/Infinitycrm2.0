@@ -330,7 +330,7 @@ const App: React.FC = () => {
                         >
                             <ApplicationList className="mt-5 table-background scroll-container" />
                         </Tab> */}
-                        {/* <Tab
+                        <Tab
                             key="Application Task"
                             title={
                                 <div className="flex items-center space-x-2">
@@ -347,7 +347,7 @@ const App: React.FC = () => {
                             }
                         >
                             <Filetask />
-                        </Tab> */}
+                        </Tab>
                         {/* <Tab
                             key="Application GIC"
                             title={

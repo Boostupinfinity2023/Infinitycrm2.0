@@ -286,6 +286,14 @@
             "icon": "Announcement"
         },
         {
+            "RoutePath": "/agent/Task",
+            "Routetype": "agent",
+            "text": "Task",
+            "isChild": false,
+            "Modal": false,
+            "icon": "Task"
+        },
+        {
             "RoutePath": "#",
             "Routetype": "agent",
             "text": "Mailbox",

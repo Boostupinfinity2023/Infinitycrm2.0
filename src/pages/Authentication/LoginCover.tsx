@@ -21,7 +21,7 @@ import { APIURL } from '../../APIurl/url';
 import type { MenuProps } from 'antd';
 import { Dropdown as DropDownManu, Menu, Space } from 'antd';
 import { message } from 'antd';
-import Google from '/google.svg';
+import Google from '/Image/google.svg';
 import Signin_header from './Signin_header';
 const LoginCover = () => {
     const [isVisible, setIsVisible] = useState(false);

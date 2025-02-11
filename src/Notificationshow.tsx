@@ -9,14 +9,14 @@ const AdminDashboard: React.FC = () => {
 
     // Firebase configuration
     const firebaseConfig = {
-        apiKey: "AIzaSyBTayWDUm9Wr84ftUJzNzZ2ioqajmJOWP4",
-        authDomain: "notificationsky-4f989.firebaseapp.com",
-        databaseURL: "https://notificationsky-4f989-default-rtdb.firebaseio.com",
-        projectId: "notificationsky-4f989",
-        storageBucket: "notificationsky-4f989.appspot.com",
-        messagingSenderId: "141889229847",
-        appId: "1:141889229847:web:0e72293583886cb733b852",
-        measurementId: "G-X3ZPC6BDSH"
+        apiKey: "AIzaSyDbAxSBlgLR90YOL4Sn0LI1L8CeuvNoKog",
+        authDomain: "boostnotification-1e4db.firebaseapp.com",
+        databaseURL: "https://boostnotification-1e4db-default-rtdb.firebaseio.com",
+        projectId: "boostnotification-1e4db",
+        storageBucket: "boostnotification-1e4db.firebasestorage.app",
+        messagingSenderId: "393297856419",
+        appId: "1:393297856419:web:8a400123f879c7136e7c16",
+        measurementId: "G-533BTLSDPP"
     };
 
     // Initialize Firebase app and database
@@ -65,7 +65,7 @@ const AdminDashboard: React.FC = () => {
     const handleNotificationClick = async (notif: any) => {
         try {
             // Update status in MySQL database via API call
-            const response = await fetch('https://harmanjeetsinghvirdi.com/CRM/API/V1/vendor/Read_Notification.php', {
+            const response = await fetch('https://harmanjeetsinghvirdi.com/InfinityCRM/API/V1/vendor/Read_Notification.php', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

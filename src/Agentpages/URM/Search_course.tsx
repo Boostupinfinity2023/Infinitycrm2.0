@@ -184,7 +184,7 @@ export default function CoursePage() {
             {loader && (
                 <div className="logo-loader">
                     <div className="loaderlogo-wrapper">
-                        <img src="/loader_fav.png" alt="Logo" className="loader-logo" />
+                        {/* <img src="/loader_fav.png" alt="Logo" className="loader-logo" /> */}
                     </div>
                 </div>
             )}

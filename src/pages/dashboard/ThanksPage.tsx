@@ -14,7 +14,7 @@ export default function App() {
                         width={130}
                     />
                     <div className="flex flex-col">
-                        <p className="text-md font-black text-lg">Skyline Immigration Consultants</p>
+                        <p className="text-md font-black text-lg">Infinity CRM</p>
                     </div>
                 </CardHeader>
                 <Divider />

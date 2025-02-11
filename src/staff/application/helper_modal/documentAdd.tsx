@@ -106,7 +106,7 @@ const DocumentRequire = ({ RefreshDATA }: any) => {
         const fornData = new FormData(target);
         fornData.append('PAGE_REQUEST', 'INSERT_DOCUMENT_REQUEST_DATA');
         fornData.append('ClientId', client_id || '');
-        const insertdata = await fetch('https://harmanjeetsinghvirdi.com/CRM/API/V1/ajax.insert.php?action=insertDoc' + '?action=insertDoc', {
+        const insertdata = await fetch('https://harmanjeetsinghvirdi.com/InfinityCRM/API/V1/ajax.insert.php?action=insertDoc' + '?action=insertDoc', {
             method: 'POST',
             headers: {
                 Authenticate: `Bearer ${Token}`,

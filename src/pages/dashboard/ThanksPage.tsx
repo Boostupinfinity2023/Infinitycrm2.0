@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, CardHeader, CardBody, CardFooter, Divider, Link, Image } from "@nextui-org/react";
-import logo from "../../../public/edunetwork_tm.png";
+import logo from "../../../public/Image/Boostup-logo.png";
 export default function App() {
     return (
         <div className="flex justify-center" style={{ paddingTop: '10%' }}>

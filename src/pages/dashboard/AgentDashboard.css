@@ -1,0 +1,132 @@
+@media (min-device-width: 320px) and (max-device-width: 426px) {
+  .Dashboard-header {
+    font-size: 17px;
+    line-height: 13.8px;
+  }
+
+  .Dash-Promotionalbtn {
+    margin-top: 18px;
+  }
+
+  table {
+    border: 0;
+  }
+
+  table caption {
+    font-size: 1.3em;
+  }
+
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: 11px !important;
+  }
+
+  table td::before {
+    content: attr(data-column) !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity: 1.2 !important;
+    text-align: left;
+    margin-top: 15px;
+    font-size: 10px;
+  }
+
+
+  table td>a {
+    font-size: 11px;
+  }
+
+  table td:last-child {
+    border-bottom: 0;
+  }
+
+  :is([dir="ltr"] table thead tr th),
+  :is([dir="ltr"] table tfoot tr th),
+  :is([dir="ltr"] table tbody tr td) {
+    text-align: right;
+    justify-content: end;
+    display: flex;
+  }
+
+  .before\:bg-default\/40::before {
+    background-color: transparent !important;
+  }
+
+  .text-blue-500 {
+    color: #000;
+  }
+
+  .panel.h-full {
+    width: auto;
+  }
+
+  g#SvgjsG2114>text {
+    font-size: 7px;
+  }
+
+  .min-w-full {
+    min-width: 144px !important;
+  }
+
+  .col-span-2 {
+    grid-column: span 1 / span 1;
+  }
+
+  .Announcement-grid {
+    grid-template-columns: auto;
+  }
+
+
+
+}
+
+
+@media (min-device-width: 320px) and (max-device-width: 426px) {
+  .Comment-Table>table>tbody>tr>td::before {
+    content: attr(data-column) !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity: 1.2 !important;
+    text-align: left;
+    margin-top: 15px;
+    font-size: 10px;
+  }
+
+  .Comment-Table>table>tbody>tr>td>.text-sm {
+    font-size: 10px;
+  }
+}
+
+
+.my-application th svg {
+  margin-left: 5px;
+  vertical-align: middle;
+  font-size: 14px;
+  color: #006ed9;
+}
+
+.my-application tbody tr {
+  border-color: #eee !important;
+}
+
+.my-application tbody tr td {
+  padding: 25px 15px !important;
+}

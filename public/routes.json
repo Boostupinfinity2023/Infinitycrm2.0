@@ -1,0 +1,452 @@
+{
+    "Route": [
+        {
+            "RoutePath": "/admin/",
+            "text": "Dashboard",
+            "isChild": false,
+            "Modal": false,
+            "Routetype": "admin",
+            "icon": "Home"
+        },
+        {
+            "RoutePath": "/admin/announcement",
+            "Routetype": "admin",
+            "text": "Announcement",
+            "isChild": false,
+            "Modal": false,
+            "icon": "Announcement"
+        },
+        {
+            "RoutePath": "#",
+            "Routetype": "admin",
+            "text": "Applications Management",
+            "isChild": true,
+            "Modal": false,
+            "icon": "Applications",
+            "ChildComponent": [
+                {
+                    "RoutePath": "/admin/staff/student/application",
+                    "Routetype": "admin",
+                    "text": "Applications",
+                    "isChild": false,
+                    "Modal": false,
+                    "icon": "IconMinus"
+                },
+                {
+                    "RoutePath": "/admin/reject/file",
+                    "Routetype": "admin",
+                    "text": "Rejected Files",
+                    "isChild": false,
+                    "Modal": false,
+                    "icon": "IconMinus"
+                },
+                {
+                    "RoutePath": "/admin/student/offer-letter-application",
+                    "Routetype": "admin",
+                    "text": "Offer Letter",
+                    "isChild": false,
+                    "Modal": false,
+                    "icon": "IconMinus"
+                },
+                {
+                    "RoutePath": "/admin/student/loan-services",
+                    "Routetype": "admin",
+                    "text": "Other Service",
+                    "isChild": false,
+                    "Modal": false,
+                    "icon": "IconMinus"
+                }
+            ]
+        },
+        {
+            "RoutePath": "#",
+            "Routetype": "admin",
+            "text": "HRM",
+            "isChild": true,
+            "Modal": false,
+            "icon": "Hrm",
+            "ChildComponent": [
+                {
+                    "RoutePath": "/admin/hrm/company/user",
+                    "Routetype": "admin",
+                    "text": "User Records",
+                    "isChild": false,
+                    "Modal": false,
+                    "icon": "IconMinus"
+                },
+                {
+                    "RoutePath": "/admin/hrm/company/leave",
+                    "Routetype": "admin",
+                    "text": "Leave Requests",
+                    "isChild": false,
+                    "Modal": false,
+                    "icon": "IconMinus"
+                },
+                {
+                    "RoutePath": "/admin/hrm/company/inventory",
+                    "Routetype": "admin",
+                    "text": "Inventory",
+                    "isChild": false,
+                    "Modal": false,
+                    "icon": "IconMinus"
+                },
+                {
+                    "RoutePath": "/admin/hrm/company/clocklist",
+                    "Routetype": "admin",
+                    "text": "Attendance Report",
+                    "isChild": false,
+                    "Modal": false,
+                    "icon": "IconMinus"
+                }
+            ]
+        },
+        {
+            "RoutePath": "/admin/university/add",
+            "Routetype": "admin",
+            "text": "University",
+            "isChild": false,
+            "Modal": false,
+            "icon": "University"
+        },
+        {
+            "RoutePath": "#",
+            "Routetype": "admin",
+            "text": "Commission Management",
+            "isChild": true,
+            "Modal": false,
+            "icon": "DollerMenu",
+            "ChildComponent": [
+                {
+                    "RoutePath": "/admin/commission/setting/manage",
+                    "Routetype": "admin",
+                    "text": "Manage - Commission",
+                    "isChild": false,
+                    "Modal": false,
+                    "icon": "IconMinus"
+                },
+                {
+                    "RoutePath": "/admin/commission/pay",
+                    "Routetype": "admin",
+                    "text": "Pay & Commission",
+                    "isChild": false,
+                    "Modal": false,
+                    "icon": "IconMinus"
+                }
+            ]
+        },
+        {
+            "RoutePath": "/admin/Promotional",
+            "Routetype": "admin",
+            "text": "Promotional Activity",
+            "icon": "Promotionalicon",
+            "isChild": false
+        },
+        {
+            "RoutePath": "#",
+            "Routetype": "admin",
+            "text": "Settings",
+            "isChild": true,
+            "Modal": false,
+            "icon": "Settings",
+            "ChildComponent": [
+                {
+                    "RoutePath": "/admin/setting/Mail",
+                    "Routetype": "admin",
+                    "text": "Mail Template",
+                    "isChild": false,
+                    "Modal": false,
+                    "icon": "IconMinus"
+                },
+                {
+                    "RoutePath": "/admin/setting/Document",
+                    "Routetype": "admin",
+                    "text": "Documents",
+                    "isChild": false,
+                    "Modal": false,
+                    "icon": "IconMinus"
+                },
+                {
+                    "RoutePath": "/admin/setting/country",
+                    "Routetype": "admin",
+                    "text": "Country",
+                    "isChild": false,
+                    "Modal": false,
+                    "icon": "IconMinus"
+                }
+            ]
+        },
+        {
+            "RoutePath": "#",
+            "Routetype": "admin",
+            "text": "Mailbox",
+            "isChild": true,
+            "Modal": false,
+            "icon": "Mails",
+            "ChildComponent": [
+                {
+                    "RoutePath": "/admin/Mail/Inbox",
+                    "Routetype": "admin",
+                    "text": "Inbox",
+                    "isChild": false,
+                    "Modal": false,
+                    "icon": "IconMinus"
+                },
+                {
+                    "RoutePath": "/admin/Mail/Send",
+                    "Routetype": "admin",
+                    "text": "Send",
+                    "isChild": false,
+                    "Modal": false,
+                    "icon": "IconMinus"
+                },
+                {
+                    "RoutePath": "/admin/Mail/Starred",
+                    "Routetype": "admin",
+                    "text": " Important",
+                    "isChild": false,
+                    "Modal": false,
+                    "icon": "IconMinus"
+                },
+                {
+                    "RoutePath": "/admin/Mail/Archive",
+                    "Routetype": "admin",
+                    "text": "Archive",
+                    "isChild": false,
+                    "Modal": false,
+                    "icon": "IconMinus"
+                },
+                {
+                    "RoutePath": "/admin/Mail/Trash",
+                    "Routetype": "admin",
+                    "text": "Deleted",
+                    "isChild": false,
+                    "Modal": false,
+                    "icon": "IconMinus"
+                }
+            ]
+        },
+        {
+            "RoutePath": "/agent/",
+            "Routetype": "agent",
+            "text": "Dashboard",
+            "isChild": false,
+            "Modal": false,
+            "icon": "Home"
+        },
+        {
+            "RoutePath": "/agent/lead",
+            "Routetype": "agent",
+            "text": "Applications",
+            "icon": "Applications",
+            "isChild": false
+        },
+        {
+            "RoutePath": "/agent/university",
+            "Routetype": "agent",
+            "text": "University",
+            "icon": "URMUniversity",
+            "isChild": false
+        },
+        {
+            "RoutePath": "/agent/search-course",
+            "Routetype": "agent",
+            "text": "Search Courses",
+            "icon": "searchcourse",
+            "isChild": false
+        },
+        {
+            "RoutePath": "/agent/note",
+            "Routetype": "agent",
+            "text": "Note",
+            "isChild": false,
+            "Modal": false,
+            "icon": "Note"
+        },
+        {
+            "RoutePath": "/agent/Commission",
+            "Routetype": "agent",
+            "text": "Commission",
+            "isChild": false,
+            "Modal": false,
+            "icon": "Commission"
+        },
+        {
+            "RoutePath": "/agent/Promotional",
+            "Routetype": "agent",
+            "text": "Promotional Activity",
+            "icon": "Promotionalicon",
+            "isChild": false
+        },
+        {
+            "RoutePath": "/agent/viewAnnouncement",
+            "Routetype": "agent",
+            "text": "Announcement",
+            "isChild": false,
+            "Modal": false,
+            "icon": "Announcement"
+        },
+        {
+            "RoutePath": "#",
+            "Routetype": "agent",
+            "text": "Mailbox",
+            "isChild": true,
+            "Modal": false,
+            "icon": "Mails",
+            "ChildComponent": [
+                {
+                    "RoutePath": "/agent/Mail/Inbox",
+                    "Routetype": "agent",
+                    "text": "Inbox",
+                    "isChild": false,
+                    "Modal": false,
+                    "icon": "IconMinus"
+                },
+                {
+                    "RoutePath": "/agent/Mail/Send",
+                    "Routetype": "agent",
+                    "text": "Send",
+                    "isChild": false,
+                    "Modal": false,
+                    "icon": "IconMinus"
+                },
+                {
+                    "RoutePath": "/agent/Mail/Starred",
+                    "Routetype": "agent",
+                    "text": " Important",
+                    "isChild": false,
+                    "Modal": false,
+                    "icon": "IconMinus"
+                },
+                {
+                    "RoutePath": "/agent/Mail/Archive",
+                    "Routetype": "agent",
+                    "text": "Archive",
+                    "isChild": false,
+                    "Modal": false,
+                    "icon": "IconMinus"
+                },
+                {
+                    "RoutePath": "/admin/Mail/Trash",
+                    "Routetype": "admin",
+                    "text": "Deleted",
+                    "isChild": false,
+                    "Modal": false,
+                    "icon": "IconMinus"
+                }
+            ]
+        },
+        {
+            "RoutePath": "/staff/",
+            "Routetype": "staff",
+            "text": "Dashboard",
+            "isChild": false,
+            "Modal": false,
+            "icon": "Home"
+        },
+        {
+            "RoutePath": "/staff/lead/client",
+            "Routetype": "staff",
+            "text": "Applications",
+            "isChild": false,
+            "Modal": false,
+            "icon": "Applications"
+        },
+        {
+            "RoutePath": "/staff/client/deal",
+            "Routetype": "staff",
+            "text": "Leads",
+            "isChild": false,
+            "Modal": false,
+            "icon": "Leads"
+        },
+        {
+            "RoutePath": "/staff/note",
+            "Routetype": "staff",
+            "text": "Notes",
+            "isChild": false,
+            "Modal": false,
+            "icon": "Note"
+        },
+        {
+            "RoutePath": "/staff/leave",
+            "Routetype": "staff",
+            "text": "Leave",
+            "isChild": false,
+            "Modal": false,
+            "icon": "Leave"
+        },
+        {
+            "RoutePath": "/staff/university/add",
+            "Routetype": "staff",
+            "text": "Universities",
+            "isChild": false,
+            "Modal": false,
+            "icon": "University"
+        },
+        {
+            "RoutePath": "/staff/Promotional",
+            "Routetype": "staff",
+            "text": "Promotional Activity",
+            "icon": "Promotionalicon",
+            "isChild": false
+        },
+        {
+            "RoutePath": "/staff/viewAnnouncement",
+            "Routetype": "staff",
+            "text": "Announcement",
+            "isChild": false,
+            "Modal": false,
+            "icon": "Announcement"
+        },
+        {
+            "RoutePath": "#",
+            "Routetype": "staff",
+            "text": "Mailbox",
+            "isChild": true,
+            "Modal": false,
+            "icon": "Mails",
+            "ChildComponent": [
+                {
+                    "RoutePath": "/staff/Mail/Inbox",
+                    "Routetype": "staff",
+                    "text": "Inbox",
+                    "isChild": false,
+                    "Modal": false,
+                    "icon": "IconMinus"
+                },
+                {
+                    "RoutePath": "/staff/Mail/Send",
+                    "Routetype": "staff",
+                    "text": "Send",
+                    "isChild": false,
+                    "Modal": false,
+                    "icon": "IconMinus"
+                },
+                {
+                    "RoutePath": "/staff/Mail/Starred",
+                    "Routetype": "staff",
+                    "text": " Important",
+                    "isChild": false,
+                    "Modal": false,
+                    "icon": "IconMinus"
+                },
+                {
+                    "RoutePath": "/staff/Mail/Archive",
+                    "Routetype": "staff",
+                    "text": "Archive",
+                    "isChild": false,
+                    "Modal": false,
+                    "icon": "IconMinus"
+                },
+                {
+                    "RoutePath": "/staff/Mail/Trash",
+                    "Routetype": "staff",
+                    "text": "Deleted",
+                    "isChild": false,
+                    "Modal": false,
+                    "icon": "IconMinus"
+                }
+            ]
+        }
+    ]
+}

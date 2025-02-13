@@ -97,7 +97,7 @@ const App: React.FC = () => {
                         <label htmlFor="name">
                             Minimum Level of Education Completed <span className="text-danger">*</span>
                         </label>
-                        <Input id="name" type="text" name="UNIVERSITY_PROGRAM_ADMISSION_REQUIREMENTS[REQUIREMENT_TYPE]" placeholder="Enter Program Name " className="design_input" />
+                        <Input id="name" type="text" name="UNIVERSITY_PROGRAM_ADMISSION_REQUIREMENTS[REQUIREMENT_DESCRIPTION]" placeholder="Enter Program Name " className="design_input" />
                     </div>
                     <div className="space-y-2 ">
                         <label htmlFor="name">
@@ -401,18 +401,7 @@ const App: React.FC = () => {
                             <label htmlFor={`submissionCloseDay-${index}`} className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
                                 Submission Close Date <span className="text-danger">*</span>
                             </label>
-                            <DatePicker className="design_input p-3"
-                                format={{
-                                    format: 'MMM-DD',
-                                    type: 'mask',
-                                }}
-                                onChange={(date: Moment | null) => {
-                                    if (date) {
-                                        handlesubmissionClose(index, 'submissionCloseDay', date.format('M-D'));
-                                    }
-
-                                }}
-                            />
+                            <input type="text" placeholder="MM-DD" pattern="\d{2}-\d{2}" />
                         </div>
 
                         <div className="space-y-2">

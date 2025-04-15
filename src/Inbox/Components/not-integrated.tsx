@@ -23,7 +23,7 @@ export default function NotIntegrated() {
 
     const Createaccesstoken = () => {
         setloader(true);
-        const authUrl = `https://harmanjeetsinghvirdi.com/InfinityCRM/API/V3/src/Integration/Google_services_backend/helpers/googleAuthHelper.php?jwt=${token}&fallback=${encryt}`;
+        const authUrl = `https://harmanhardy.com/InfinityCRM/API/V3/src/Integration/Google_services_backend/helpers/googleAuthHelper.php?jwt=${token}&fallback=${encryt}`;
         const popupWidth = 600;
         const popupHeight = 700;
         const screenWidth = window.innerWidth || document.documentElement.clientWidth || screen.width;

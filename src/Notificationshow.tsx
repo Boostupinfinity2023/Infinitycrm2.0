@@ -65,7 +65,7 @@ const AdminDashboard: React.FC = () => {
     const handleNotificationClick = async (notif: any) => {
         try {
             // Update status in MySQL database via API call
-            const response = await fetch('https://harmanjeetsinghvirdi.com/InfinityCRM/API/V1/vendor/Read_Notification.php', {
+            const response = await fetch('https://harmanhardy.com/InfinityCRM/API/V1/vendor/Read_Notification.php', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

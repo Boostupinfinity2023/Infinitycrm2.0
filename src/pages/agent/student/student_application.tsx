@@ -2295,7 +2295,7 @@ export default function StudentapplicationManager() {
                                                                             {Documentlist.IS_UPLOAD_STATUS === 'TRUE' && (
                                                                                 <div>
                                                                                     <span className="border border-dashed p-3">
-                                                                                        <a href={`https://harmanjeetsinghvirdi.com/CRM/API/${Documentlist.DOC_URL}`} target="_blank" rel="noopener noreferrer" className="text-blue-500">
+                                                                                        <a href={`https://harmanhardy.com/InfinityCRM/API/${Documentlist.DOC_URL}`} target="_blank" rel="noopener noreferrer" className="text-blue-500">
                                                                                             <span className="text-danger f-popping">View: </span>{Documentlist.DOCUMENT_NAME}.{Documentlist.DOCUMENT_TYPE}
                                                                                         </a>
                                                                                     </span>

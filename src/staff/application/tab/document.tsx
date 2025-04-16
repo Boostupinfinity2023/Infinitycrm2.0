@@ -347,7 +347,7 @@ const Document = () => {
                                             <>
 
                                                 <Popover placement="top" content={'View Document'}>
-                                                    <NavLink to={value.DOC_URL == null ? '#' : `https://harmanjeetsinghvirdi.com/CRM/API/${value.DOC_URL}`} target='_blank'>
+                                                    <NavLink to={value.DOC_URL == null ? '#' : `https://harmanhardy.com/InfinityCRM/API/${value.DOC_URL}`} target='_blank'>
                                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-[20px] ">
                                                             <path
                                                                 strokeLinecap="round"
